@@ -108,8 +108,8 @@ UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UIGestureRecogni
 
     internal var messageCollectionViewBottomInset: CGFloat = 0 {
         didSet {
-            messagesCollectionView.contentInset.bottom = messageCollectionViewBottomInset
-            messagesCollectionView.scrollIndicatorInsets.bottom = messageCollectionViewBottomInset
+            //messagesCollectionView.contentInset.bottom = messageCollectionViewBottomInset
+            //messagesCollectionView.scrollIndicatorInsets.bottom = messageCollectionViewBottomInset
         }
     }
 
